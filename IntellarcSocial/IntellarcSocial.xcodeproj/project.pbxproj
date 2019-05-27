@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ACF658CC7E18D0613B0729D /* Pods_IntellarcSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86628DBCD357E12CB5D7F1F /* Pods_IntellarcSocial.framework */; };
+		639A76D6F49192BAA3439F0A /* Pods_IntellarcSocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D42DD7B42083268D1CB6641 /* Pods_IntellarcSocialTests.framework */; };
+		693536F422990F12006571C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693536F322990F12006571C4 /* User.swift */; };
+		693536F522990F12006571C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693536F322990F12006571C4 /* User.swift */; };
+		693536F622990F12006571C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693536F322990F12006571C4 /* User.swift */; };
+		693536F922997B49006571C4 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 693536F822997B49006571C4 /* .swiftlint.yml */; };
+		693536FA22997B49006571C4 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 693536F822997B49006571C4 /* .swiftlint.yml */; };
+		693536FB22997B49006571C4 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 693536F822997B49006571C4 /* .swiftlint.yml */; };
+		69DD6C222297AD2F0058273B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DD6C212297AD2F0058273B /* AppDelegate.swift */; };
+		69DD6C242297AD2F0058273B /* FaceBookLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DD6C232297AD2F0058273B /* FaceBookLoginViewController.swift */; };
+		69DD6C272297AD2F0058273B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DD6C252297AD2F0058273B /* Main.storyboard */; };
+		69DD6C292297AD300058273B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DD6C282297AD300058273B /* Assets.xcassets */; };
+		69DD6C2C2297AD300058273B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DD6C2A2297AD300058273B /* LaunchScreen.storyboard */; };
+		69DD6C372297AD300058273B /* IntellarcSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DD6C362297AD300058273B /* IntellarcSocialTests.swift */; };
+		69DD6C422297AD300058273B /* IntellarcSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DD6C412297AD300058273B /* IntellarcSocialUITests.swift */; };
+		69DD6C502297D1C20058273B /* FBLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DD6C4F2297D1C20058273B /* FBLoginViewModel.swift */; };
+		69DD6C512297D1C20058273B /* FBLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DD6C4F2297D1C20058273B /* FBLoginViewModel.swift */; };
+		69DD6C522297D1C20058273B /* FBLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DD6C4F2297D1C20058273B /* FBLoginViewModel.swift */; };
+		89C88FCD2EBB83DA466444F1 /* Pods_IntellarcSocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D812242C5921E29DB90BE172 /* Pods_IntellarcSocialUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69DD6C332297AD300058273B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69DD6C162297AD2F0058273B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DD6C1D2297AD2F0058273B;
+			remoteInfo = IntellarcSocial;
+		};
+		69DD6C3E2297AD300058273B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69DD6C162297AD2F0058273B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DD6C1D2297AD2F0058273B;
+			remoteInfo = IntellarcSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2475A1DEBBAEAF7625E920E1 /* Pods-IntellarcSocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntellarcSocialTests.release.xcconfig"; path = "Target Support Files/Pods-IntellarcSocialTests/Pods-IntellarcSocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D42DD7B42083268D1CB6641 /* Pods_IntellarcSocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntellarcSocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		693536F322990F12006571C4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		693536F822997B49006571C4 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		69DD6C1E2297AD2F0058273B /* IntellarcSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntellarcSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DD6C212297AD2F0058273B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69DD6C232297AD2F0058273B /* FaceBookLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookLoginViewController.swift; sourceTree = "<group>"; };
+		69DD6C262297AD2F0058273B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69DD6C282297AD300058273B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69DD6C2B2297AD300058273B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69DD6C2D2297AD300058273B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DD6C322297AD300058273B /* IntellarcSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntellarcSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DD6C362297AD300058273B /* IntellarcSocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntellarcSocialTests.swift; sourceTree = "<group>"; };
+		69DD6C382297AD300058273B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DD6C3D2297AD300058273B /* IntellarcSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntellarcSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DD6C412297AD300058273B /* IntellarcSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntellarcSocialUITests.swift; sourceTree = "<group>"; };
+		69DD6C432297AD300058273B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DD6C4F2297D1C20058273B /* FBLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginViewModel.swift; sourceTree = "<group>"; };
+		9A3C27D94C3C92EAAE88CDF9 /* Pods-IntellarcSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntellarcSocial.debug.xcconfig"; path = "Target Support Files/Pods-IntellarcSocial/Pods-IntellarcSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		B6739411ABB8B58A0705FBC0 /* Pods-IntellarcSocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntellarcSocialUITests.debug.xcconfig"; path = "Target Support Files/Pods-IntellarcSocialUITests/Pods-IntellarcSocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFBDFC71C431E9F193BCA9AC /* Pods-IntellarcSocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntellarcSocialTests.debug.xcconfig"; path = "Target Support Files/Pods-IntellarcSocialTests/Pods-IntellarcSocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D812242C5921E29DB90BE172 /* Pods_IntellarcSocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntellarcSocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86628DBCD357E12CB5D7F1F /* Pods_IntellarcSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntellarcSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9880A9D682716A0B5DD8743 /* Pods-IntellarcSocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntellarcSocialUITests.release.xcconfig"; path = "Target Support Files/Pods-IntellarcSocialUITests/Pods-IntellarcSocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB10E7617C0242AD00FF722E /* Pods-IntellarcSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntellarcSocial.release.xcconfig"; path = "Target Support Files/Pods-IntellarcSocial/Pods-IntellarcSocial.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69DD6C1B2297AD2F0058273B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACF658CC7E18D0613B0729D /* Pods_IntellarcSocial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DD6C2F2297AD300058273B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639A76D6F49192BAA3439F0A /* Pods_IntellarcSocialTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DD6C3A2297AD300058273B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C88FCD2EBB83DA466444F1 /* Pods_IntellarcSocialUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DDFE38DBD493C2781385905 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C27D94C3C92EAAE88CDF9 /* Pods-IntellarcSocial.debug.xcconfig */,
+				FB10E7617C0242AD00FF722E /* Pods-IntellarcSocial.release.xcconfig */,
+				BFBDFC71C431E9F193BCA9AC /* Pods-IntellarcSocialTests.debug.xcconfig */,
+				2475A1DEBBAEAF7625E920E1 /* Pods-IntellarcSocialTests.release.xcconfig */,
+				B6739411ABB8B58A0705FBC0 /* Pods-IntellarcSocialUITests.debug.xcconfig */,
+				D9880A9D682716A0B5DD8743 /* Pods-IntellarcSocialUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		69DD6C152297AD2F0058273B = {
+			isa = PBXGroup;
+			children = (
+				693536F822997B49006571C4 /* .swiftlint.yml */,
+				69DD6C202297AD2F0058273B /* IntellarcSocial */,
+				69DD6C352297AD300058273B /* IntellarcSocialTests */,
+				69DD6C402297AD300058273B /* IntellarcSocialUITests */,
+				69DD6C1F2297AD2F0058273B /* Products */,
+				0DDFE38DBD493C2781385905 /* Pods */,
+				A358154DF5F90D9AC1A93ECF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69DD6C1F2297AD2F0058273B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69DD6C1E2297AD2F0058273B /* IntellarcSocial.app */,
+				69DD6C322297AD300058273B /* IntellarcSocialTests.xctest */,
+				69DD6C3D2297AD300058273B /* IntellarcSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69DD6C202297AD2F0058273B /* IntellarcSocial */ = {
+			isa = PBXGroup;
+			children = (
+				69DD6C212297AD2F0058273B /* AppDelegate.swift */,
+				693536F322990F12006571C4 /* User.swift */,
+				69DD6C232297AD2F0058273B /* FaceBookLoginViewController.swift */,
+				69DD6C4F2297D1C20058273B /* FBLoginViewModel.swift */,
+				69DD6C252297AD2F0058273B /* Main.storyboard */,
+				69DD6C282297AD300058273B /* Assets.xcassets */,
+				69DD6C2A2297AD300058273B /* LaunchScreen.storyboard */,
+				69DD6C2D2297AD300058273B /* Info.plist */,
+			);
+			path = IntellarcSocial;
+			sourceTree = "<group>";
+		};
+		69DD6C352297AD300058273B /* IntellarcSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				69DD6C362297AD300058273B /* IntellarcSocialTests.swift */,
+				69DD6C382297AD300058273B /* Info.plist */,
+			);
+			path = IntellarcSocialTests;
+			sourceTree = "<group>";
+		};
+		69DD6C402297AD300058273B /* IntellarcSocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69DD6C412297AD300058273B /* IntellarcSocialUITests.swift */,
+				69DD6C432297AD300058273B /* Info.plist */,
+			);
+			path = IntellarcSocialUITests;
+			sourceTree = "<group>";
+		};
+		A358154DF5F90D9AC1A93ECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D86628DBCD357E12CB5D7F1F /* Pods_IntellarcSocial.framework */,
+				5D42DD7B42083268D1CB6641 /* Pods_IntellarcSocialTests.framework */,
+				D812242C5921E29DB90BE172 /* Pods_IntellarcSocialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69DD6C1D2297AD2F0058273B /* IntellarcSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DD6C462297AD300058273B /* Build configuration list for PBXNativeTarget "IntellarcSocial" */;
+			buildPhases = (
+				BF179A6B92CAC4046D81FBDF /* [CP] Check Pods Manifest.lock */,
+				69DD6C1A2297AD2F0058273B /* Sources */,
+				69DD6C1B2297AD2F0058273B /* Frameworks */,
+				69DD6C1C2297AD2F0058273B /* Resources */,
+				B131CDBFC04F19B9BE83C24B /* [CP] Embed Pods Frameworks */,
+				693536F7229979AF006571C4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntellarcSocial;
+			productName = IntellarcSocial;
+			productReference = 69DD6C1E2297AD2F0058273B /* IntellarcSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69DD6C312297AD300058273B /* IntellarcSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DD6C492297AD300058273B /* Build configuration list for PBXNativeTarget "IntellarcSocialTests" */;
+			buildPhases = (
+				49D0EDEBFCAE512F4910997B /* [CP] Check Pods Manifest.lock */,
+				69DD6C2E2297AD300058273B /* Sources */,
+				69DD6C2F2297AD300058273B /* Frameworks */,
+				69DD6C302297AD300058273B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DD6C342297AD300058273B /* PBXTargetDependency */,
+			);
+			name = IntellarcSocialTests;
+			productName = IntellarcSocialTests;
+			productReference = 69DD6C322297AD300058273B /* IntellarcSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69DD6C3C2297AD300058273B /* IntellarcSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DD6C4C2297AD300058273B /* Build configuration list for PBXNativeTarget "IntellarcSocialUITests" */;
+			buildPhases = (
+				089F32494303CF94DA32F072 /* [CP] Check Pods Manifest.lock */,
+				69DD6C392297AD300058273B /* Sources */,
+				69DD6C3A2297AD300058273B /* Frameworks */,
+				69DD6C3B2297AD300058273B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DD6C3F2297AD300058273B /* PBXTargetDependency */,
+			);
+			name = IntellarcSocialUITests;
+			productName = IntellarcSocialUITests;
+			productReference = 69DD6C3D2297AD300058273B /* IntellarcSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69DD6C162297AD2F0058273B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = IntellArc;
+				TargetAttributes = {
+					69DD6C1D2297AD2F0058273B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					69DD6C312297AD300058273B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 69DD6C1D2297AD2F0058273B;
+					};
+					69DD6C3C2297AD300058273B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 69DD6C1D2297AD2F0058273B;
+					};
+				};
+			};
+			buildConfigurationList = 69DD6C192297AD2F0058273B /* Build configuration list for PBXProject "IntellarcSocial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69DD6C152297AD2F0058273B;
+			productRefGroup = 69DD6C1F2297AD2F0058273B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69DD6C1D2297AD2F0058273B /* IntellarcSocial */,
+				69DD6C312297AD300058273B /* IntellarcSocialTests */,
+				69DD6C3C2297AD300058273B /* IntellarcSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69DD6C1C2297AD2F0058273B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693536F922997B49006571C4 /* .swiftlint.yml in Resources */,
+				69DD6C2C2297AD300058273B /* LaunchScreen.storyboard in Resources */,
+				69DD6C292297AD300058273B /* Assets.xcassets in Resources */,
+				69DD6C272297AD2F0058273B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DD6C302297AD300058273B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693536FA22997B49006571C4 /* .swiftlint.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DD6C3B2297AD300058273B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693536FB22997B49006571C4 /* .swiftlint.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		089F32494303CF94DA32F072 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntellarcSocialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49D0EDEBFCAE512F4910997B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntellarcSocialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		693536F7229979AF006571C4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		B131CDBFC04F19B9BE83C24B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntellarcSocial/Pods-IntellarcSocial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntellarcSocial/Pods-IntellarcSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF179A6B92CAC4046D81FBDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntellarcSocial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69DD6C1A2297AD2F0058273B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693536F422990F12006571C4 /* User.swift in Sources */,
+				69DD6C242297AD2F0058273B /* FaceBookLoginViewController.swift in Sources */,
+				69DD6C222297AD2F0058273B /* AppDelegate.swift in Sources */,
+				69DD6C502297D1C20058273B /* FBLoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DD6C2E2297AD300058273B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DD6C512297D1C20058273B /* FBLoginViewModel.swift in Sources */,
+				69DD6C372297AD300058273B /* IntellarcSocialTests.swift in Sources */,
+				693536F522990F12006571C4 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DD6C392297AD300058273B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DD6C522297D1C20058273B /* FBLoginViewModel.swift in Sources */,
+				69DD6C422297AD300058273B /* IntellarcSocialUITests.swift in Sources */,
+				693536F622990F12006571C4 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69DD6C342297AD300058273B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69DD6C1D2297AD2F0058273B /* IntellarcSocial */;
+			targetProxy = 69DD6C332297AD300058273B /* PBXContainerItemProxy */;
+		};
+		69DD6C3F2297AD300058273B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69DD6C1D2297AD2F0058273B /* IntellarcSocial */;
+			targetProxy = 69DD6C3E2297AD300058273B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69DD6C252297AD2F0058273B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DD6C262297AD2F0058273B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69DD6C2A2297AD300058273B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DD6C2B2297AD300058273B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69DD6C442297AD300058273B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69DD6C452297AD300058273B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69DD6C472297AD300058273B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3C27D94C3C92EAAE88CDF9 /* Pods-IntellarcSocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntellarcSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intell.com.IntellarcSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69DD6C482297AD300058273B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB10E7617C0242AD00FF722E /* Pods-IntellarcSocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntellarcSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intell.com.IntellarcSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69DD6C4A2297AD300058273B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBDFC71C431E9F193BCA9AC /* Pods-IntellarcSocialTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntellarcSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intell.com.IntellarcSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntellarcSocial.app/IntellarcSocial";
+			};
+			name = Debug;
+		};
+		69DD6C4B2297AD300058273B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2475A1DEBBAEAF7625E920E1 /* Pods-IntellarcSocialTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntellarcSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intell.com.IntellarcSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntellarcSocial.app/IntellarcSocial";
+			};
+			name = Release;
+		};
+		69DD6C4D2297AD300058273B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6739411ABB8B58A0705FBC0 /* Pods-IntellarcSocialUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntellarcSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intell.com.IntellarcSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntellarcSocial;
+			};
+			name = Debug;
+		};
+		69DD6C4E2297AD300058273B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9880A9D682716A0B5DD8743 /* Pods-IntellarcSocialUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntellarcSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.intell.com.IntellarcSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntellarcSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69DD6C192297AD2F0058273B /* Build configuration list for PBXProject "IntellarcSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DD6C442297AD300058273B /* Debug */,
+				69DD6C452297AD300058273B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DD6C462297AD300058273B /* Build configuration list for PBXNativeTarget "IntellarcSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DD6C472297AD300058273B /* Debug */,
+				69DD6C482297AD300058273B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DD6C492297AD300058273B /* Build configuration list for PBXNativeTarget "IntellarcSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DD6C4A2297AD300058273B /* Debug */,
+				69DD6C4B2297AD300058273B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DD6C4C2297AD300058273B /* Build configuration list for PBXNativeTarget "IntellarcSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DD6C4D2297AD300058273B /* Debug */,
+				69DD6C4E2297AD300058273B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69DD6C162297AD2F0058273B /* Project object */;
+}
